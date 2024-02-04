@@ -68,6 +68,7 @@ events_amazon = {'Amazon/IRBT Acquisition Announced - $61/Share': ('2022-08-05',
                  'EU Expected to Approve Acquisition '
                  '(Adjusted for Thanksgiving)': ('2023-11-24', 'm'),
                  'EU Unexpectedly Opposes Acquisition': ('2023-11-27', 'r'),
+                 'Amazon/IRBT Acquisition Terminated': ('2024-01-29', 'g'),
 }
 
 events_irbt = {'Amazon/IRBT Acquisition Announced - $61/Share': ('2022-08-05', 'r'),
@@ -76,6 +77,7 @@ events_irbt = {'Amazon/IRBT Acquisition Announced - $61/Share': ('2022-08-05', '
                  'EU Expected to Approve Acquisition'
                  '(Adjusted for Thanksgiving)': ('2023-11-24', 'm'),
                  'EU Unexpectedly Opposes Acquisition': ('2023-11-27', 'r'),
+                 'Amazon/IRBT Acquisition Terminated': ('2024-01-29', 'g'),
 }
 
 plot_returns(meta_data, 'Normalized Returns', 'Normalized Returns of Meta', 'meta_normalized_returns.png', events_meta)
@@ -190,6 +192,7 @@ events_amazon = {'Amazon - IRBT Merger Announced': '2022-08-05',
 }
 
 events_irbt = {'IRBT - Amazon Merger Announced': '2022-08-05',
+               'IRBT - Amazon Merger Cancelled': '2024-01-29',
 }
 
 event_study('META', '^GSPC', 5, 5, 30, 180, events_meta)
